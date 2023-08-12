@@ -4,6 +4,7 @@ const Portfolio = () => {
   return (
     <div className='my-24'>
       <Image
+        priority
         src='/bg-sample.png'
         alt='bg-sample'
         width={1600}

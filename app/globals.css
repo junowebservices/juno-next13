@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer components {
-  body {
+  /* body {
     @apply mx-auto max-w-[2000px] border-2;
   }
   .container {
@@ -20,8 +20,8 @@
   }
   p {
     @apply text-base lg:text-[32px] lg:leading-10;
-  }
-  .dark {
+  } */
+  /* .dark {
     @apply bg-black;
-  }
+  } */
 }
