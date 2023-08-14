@@ -19,7 +19,7 @@ const TestPage = () => {
               {/* modifying <br />
             Windows. */}
             </h1>
-            <p className='3xl:max-w-4xl 3xl:text-2xl my-10 max-w-3xl font-semibold text-zinc-400'>
+            <p className='3xl:max-w-4xl 3xl:text-2xl my-10 max-w-3xl text-zinc-400'>
               Our custom Playbooks aim to not only showcase the power of AME
               Wizard, but are a carefully crafted gift to the enthusiast
               community we are a part of. Being functional software enthusiasts
@@ -29,9 +29,6 @@ const TestPage = () => {
               Playbooks specifically target these goals through an intensive and
               transformative new process.
             </p>
-          </div>
-          <div className='mr-[-20px] mt-[10px] hidden sm:block lg:mt-[-20px]'>
-            <p>Right Section</p>
           </div>
         </div>
 

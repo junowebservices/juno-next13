@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 @layer components {
+  .box-padding {
+    @apply p-8 md:p-12;
+  }
+  .box-heights {
+    @apply lg:h-[500px];
+  }
   /* body {
     @apply mx-auto max-w-[2000px] border-2;
   }

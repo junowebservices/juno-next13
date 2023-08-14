@@ -1,8 +1,11 @@
 'use cliet'
+import { useEffect } from 'react'
+
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import { SmartphoneIcon } from 'lucide-react'
-import { useEffect } from 'react'
+import { MonitorSmartphone, SmartphoneIcon, Zap } from 'lucide-react'
+
+import { PrimaryServices } from '@/data/common'
 
 const Test2 = () => {
   useEffect(() => {
@@ -19,9 +22,8 @@ const Test2 = () => {
             <div className='3xl:mt-24 flex flex-auto flex-col lg:mt-12'>
               <SmartphoneIcon className='h-14 w-14' />
               <p className='3xl:text-[25px] 3xl:leading-[32px] mt-4 font-semibold sm:text-[15px] lg:text-[16px] 2xl:text-[19px]'>
-                An app that truly looks at home on your desktop. It follows the
-                modern design guidelines for Windows 11, including transparency
-                effects, animations, and both light and dark themes.
+                We start building your site for mobile devices first before
+                proceeding to making tablet and desktop versions.
               </p>
             </div>
             <div className='mt-5 flex-none sm:mt-0'>
@@ -41,14 +43,13 @@ const Test2 = () => {
         <div className='3xl:h-[650px] rounded-xl bg-gradient-to-b from-[#2B2D34] to-[#1D1D1F] p-8 sm:h-[350px] lg:h-[500px] lg:p-12 2xl:h-[550px]'>
           <div className='flex h-full flex-col'>
             <h1 className='3xl:text-xl font-[800] text-[#D3D3D3]'>
-              Open source
+              Fully Responsive
             </h1>
             <div className='3xl:mt-24 flex flex-auto flex-col lg:mt-12'>
-              <SmartphoneIcon className='h-14 w-14' />
+              <MonitorSmartphone className='h-14 w-14' />
               <p className='3xl:text-[25px] 3xl:leading-[32px] mt-4 font-semibold sm:text-[15px] lg:text-[16px] 2xl:text-[19px]'>
-                Freely available source-code strengthens the community through
-                trust and transparency. Most of our software is released under
-                the MIT license.
+                Your website will be responsive on all screen sizes for best
+                experience.
               </p>
             </div>
             <div className='mt-5 flex-none sm:mt-0'>
@@ -68,15 +69,14 @@ const Test2 = () => {
         <div className='3xl:h-[650px] rounded-xl bg-gradient-to-b from-[#2B2D34] to-[#1D1D1F] p-8 sm:h-[350px] lg:h-[500px] lg:p-12 2xl:h-[550px]'>
           <div className='flex h-full flex-col'>
             <h1 className='3xl:text-xl font-[800] text-[#D3D3D3]'>
-              Native app
+              Optimization
             </h1>
             <div className='3xl:mt-24 flex flex-auto flex-col lg:mt-12'>
-              <SmartphoneIcon className='h-14 w-14' />
+              <Zap className='h-14 w-14' />
               <p className='3xl:text-[25px] 3xl:leading-[32px] mt-4 font-semibold sm:text-[15px] lg:text-[16px] 2xl:text-[19px]'>
-                We did not take the easy path of writing our app in Java or a
-                web-based Java-script heavy framework. Using C# and .NET allows
-                us to craft an experience that minimizes resource use and is
-                very fast.
+                We optimize your website for mobile device to perform their best
+                in search engines because 60% of the internet traffic is on
+                mobile devices.
               </p>
             </div>
             <div className='mt-5 flex-none sm:mt-0'>

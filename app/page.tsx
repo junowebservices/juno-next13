@@ -6,19 +6,27 @@ import RightSection from '@/components/RightSection'
 import Services from '@/components/Services'
 import Test from '@/components/Test2'
 import TestPage from '@/components/TestPage'
+import TwoThird from '@/components/TwoThird'
+import FullWidth from '@/components/sections/FullWidth'
+import Landing from '@/components/sections/Landing'
+import TwoColumns from '@/components/sections/TwoColumns'
 import WhatWeDo from '@/components/sections/WhatWeDo'
 
 export default function Home() {
   return (
     <div className='3xl:max-w-[85rem] 3xl:gap-9 relative mx-5 mb-14 mt-[5.5rem] flex max-w-5xl flex-col gap-4 lg:mx-auto lg:mt-0 lg:max-w-[62rem] xl:max-w-[70rem] xl:gap-6'>
-      <div className='mt-32' />
-
-      <WhatWeDo />
-      <Portfolio />
+      <Landing />
       <NewSection />
       <RightSection />
+      <TwoThird />
+
+      {/* <WhatWeDo /> */}
+      {/* <Portfolio /> */}
+
       <TestPage />
       <Test />
+      <FullWidth />
+      <TwoColumns />
       {/* <div className='container mb-12 mt-4 md:mb-28 md:mt-12 xl:mb-0 xl:mt-0 xl:flex xl:h-[70vh] xl:flex-col xl:justify-center'>
         <h4 className='mb-4 text-xl font-bold md:mb-12 md:hidden'>
           Juno Consulting

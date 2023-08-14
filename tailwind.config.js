@@ -16,6 +16,11 @@ module.exports = {
       }
     },
     extend: {
+      extend: {
+        backgroundImage: {
+          'sample-image': "url('/bg-sample.png')"
+        }
+      },
       keyframes: {
         'accordion-down': {
           from: { height: 0 },
